@@ -1,0 +1,25 @@
+.navbar{
+  background-color:tomato;
+  border: 0px;
+  border-radius: 0px;
+  transition: background-color 1s ease-in-out;
+}
+
+.nav li a{
+  color: white !important;
+
+}
+
+.nav li a:hover{
+  background-color: rgb(0,0,0,0.5) !important;
+}
+.about,.contact{
+  background-color:#d4d4d4 ;
+  color: white;
+}
+
+.about,.home,.contact,.product{
+  height: 650px;
+  text-align: center;
+  padding: 100px;
+}
